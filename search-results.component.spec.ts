@@ -3,11 +3,7 @@ Run with "ng test --sourcemaps=false"
 */
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { Router } from '@angular/router';
-// import { RouterTestingModule } from '@angular/router/testing';
-// import { FormsModule} from '@angular/forms';
 import { QuestionService } from '../../question.service';
-// import { HttpModule } from '@angular/http';
-// import { UserService } from '../../user.service';
 import {Observable} from 'rxjs/Rx';
 
 import { DashboardComponent } from '../dashboard.component';
